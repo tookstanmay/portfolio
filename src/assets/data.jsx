@@ -10,7 +10,7 @@ const data = {
     social: {
         github: "https://github.com/tookstanmay",
         linkedin: "https://www.linkedin.com/in/tookstanmay/",
-        twitter: "https://github.com/tookstanmay",
+        twitter: "https://x.com/tookstanmay/",
         email: "velocitytanmay@gmail.com",
     },
     about: {
