@@ -12,6 +12,7 @@ const data = {
         linkedin: "https://www.linkedin.com/in/tookstanmay/",
         twitter: "https://x.com/tookstanmay/",
         email: "velocitytanmay@gmail.com",
+        resume: "/public/documents/Tanmay_S_Resume.pdf"
     },
     about: {
         title: "My Background",

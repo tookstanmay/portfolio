@@ -6,7 +6,7 @@ const Coding = ({links}) => {
         <div className="relative mt-8 md:mt-4 mx-auto w-48 md:w-auto md:fixed flex align-center p-2 md:p-0 md:flex-col md:right-10 md:top-10 bg-white rounded-xl justify-center md:justify-end z-50 shadow-xl">
             <a
                 target="__blank"
-                className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-emerald-800 hover:bg-emerald-800 rounded-full hover:text-white transition-colors duration-300"
+                className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-emerald-700 hover:bg-emerald-700 rounded-full hover:text-white transition-colors duration-300"
                 href={links.gfg}
             >
                 <SiGeeksforgeeks />
@@ -14,7 +14,7 @@ const Coding = ({links}) => {
             </a>
             <a
                 target="__blank"
-                className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-amber-800 hover:bg-amber-800 rounded-full hover:text-white transition-colors duration-300"
+                className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-amber-500 hover:bg-amber-500 rounded-full hover:text-white transition-colors duration-300"
                 href={links.leetcode}
             >
                 <SiLeetcode />
@@ -22,7 +22,7 @@ const Coding = ({links}) => {
             </a>
             <a
                 target="__blank"
-                className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-red-600 hover:bg-red-600 rounded-full hover:text-white transition-colors duration-300"
+                className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-rose-400 hover:bg-rose-400 rounded-full hover:text-white transition-colors duration-300"
                 href={links.codechef}
             >
                 <SiCodechef />

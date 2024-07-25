@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+.about-cta {
+    display: flex; /* Display as an inline block for proper button styling */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2d2d2d; /* Darker blue for the button */
+    color: #fff; /* White text for contrast */
+    text-decoration: none; /* Remove underline from default link styling */
+    cursor: pointer; /* Indicate clickable behavior */
+    transition: background-color 0.2s ease-in-out; /* Smooth transition on hover */
+  }
+  
+  .about-cta:hover {
+    background-color: #222; /* Darker shade on hover for visual feedback */
+  }

@@ -4,8 +4,10 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { SiGoogledocs, SiReactiveresume, SiStandardresume } from "react-icons/si";
+import { IoMdDocument } from "react-icons/io";
 
-function Card({ name, title, social: { github, linkedin, twitter, email } }) {
+function Card({ name, title, social: { github, linkedin, twitter, email, resume } }) {
   return (
     <div className="w-full">
       <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
@@ -32,7 +34,7 @@ function Card({ name, title, social: { github, linkedin, twitter, email } }) {
               <span className="sr-only">Github</span>
             </a>
             <a
-              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-600 hover:bg-blue-600 rounded-full hover:text-white transition-colors duration-300"
+              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-sky-600 hover:bg-sky-600 rounded-full hover:text-white transition-colors duration-300"
               href={linkedin}
             >
               <FaLinkedin />
@@ -46,11 +48,19 @@ function Card({ name, title, social: { github, linkedin, twitter, email } }) {
               <span className="sr-only">Twitter</span>
             </a>
             <a
-              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-teal-500 hover:bg-teal-500 rounded-full hover:text-white transition-colors duration-300"
+              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-rose-500 hover:bg-rose-500 rounded-full hover:text-white transition-colors duration-300"
               href={"https://mail.google.com/mail/?view=cm&fs=1&to=" + email}
             >
               <FaRegEnvelope />
               <span className="sr-only">Email</span>
+            </a>
+            <a
+              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-400 hover:bg-blue-400 rounded-full hover:text-white transition-colors duration-300"
+              href={resume}
+              download={"Tanmay_S_Resume.pdf"}
+            >
+              <SiGoogledocs />
+              <span className="sr-only">Resume</span>
             </a>
           </div>
         </div>

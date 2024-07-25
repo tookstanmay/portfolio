@@ -7,7 +7,6 @@ import Skills from "./components/Skills";
 import data from "./assets/data";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Education from "./components/Education";
 import Coding from "./components/Coding";
 
 function App() {
@@ -16,6 +15,7 @@ function App() {
       once: true,
     });
   });
+
   return (
     <div className="min-h-screen py-10 px-3 sm:px-5 bg-gray-100">
       <div data-aos="fade-down" data-aos-duration="800">
