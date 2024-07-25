@@ -41,7 +41,7 @@ const data = {
     ],
     projects: [
         {
-            title: "Budgetbook",
+            title: "budgetbook",
             description: "👨‍🎨 An Expense Management Application.",
             tags: [
                 "react js",
