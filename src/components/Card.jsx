@@ -4,8 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { SiGoogledocs, SiReactiveresume, SiStandardresume } from "react-icons/si";
-import { IoMdDocument } from "react-icons/io";
+import { SiGoogledocs } from "react-icons/si";
 
 function Card({ name, title, social: { github, linkedin, twitter, email, resume } }) {
   return (
