@@ -11,8 +11,8 @@ const data = {
         github: "https://github.com/tookstanmay",
         linkedin: "https://www.linkedin.com/in/tookstanmay/",
         twitter: "https://x.com/tookstanmay/",
-        email: "velocitytanmay@gmail.com",
-        resume: "/documents/Tanmay_S_Resume.pdf"
+        email: "tookstanmay@gmail.com",
+        resume: "https://drive.google.com/file/d/1jCVb2Zxk42qz5neYscqPRkg83-xSZZym/view?usp=drive_link"
     },
     about: {
         title: "My Background",
