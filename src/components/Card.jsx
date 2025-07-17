@@ -55,8 +55,7 @@ function Card({ name, title, social: { github, linkedin, twitter, email, resume 
             </a>
             <a
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-400 hover:bg-blue-400 rounded-full hover:text-white transition-colors duration-300"
-              href={resume}
-              download={"Tanmay_S_Resume.pdf"}
+              href={"https://drive.google.com/file/d/1jCVb2Zxk42qz5neYscqPRkg83-xSZZym/view?usp=drive_link"}
             >
               <SiGoogledocs />
               <span className="sr-only">Resume</span>
